@@ -9,7 +9,7 @@ interface IWidgetProps {
 
 const Electric_car_widgetsWidget: React.FunctionComponent<IWidgetProps> = (props) => {
 
-    let [selected, setSelected] = React.useState<string | null>("op-1");
+    let [selected, setSelected] = React.useState<string | null>("op-24");
     // let [inputValue, setInputValue] = React.useState<string | null>("sample text");
 
     // let [defCheckState, setDefCheckState] = React.useState<boolean>(false);
@@ -36,9 +36,30 @@ const Electric_car_widgetsWidget: React.FunctionComponent<IWidgetProps> = (props
                                 <Select
                                     selected={selected}
                                     options={[
-                                        { label: "24 hours", value: "op-1" },
-                                        { label: "Central Square 1", value: "op-2" },
-                                        { label: "Central Square 2", value: "op-3" },
+                                        { label: "01 hour",  value: "op-1" },
+                                        { label: "02 hours", value: "op-2" },
+                                        { label: "03 hours", value: "op-3" },
+                                        { label: "04 hours", value: "op-4" },
+                                        { label: "05 hours", value: "op-5" },
+                                        { label: "06 hours", value: "op-6" },
+                                        { label: "07 hours", value: "op-7" },
+                                        { label: "08 hours", value: "op-8" },
+                                        { label: "09 hours", value: "op-9" },
+                                        { label: "10 hours", value: "op-10" },
+                                        { label: "11 hours", value: "op-11" },
+                                        { label: "12 hours", value: "op-12" },
+                                        { label: "13 hours", value: "op-13" },
+                                        { label: "14 hours", value: "op-14" },
+                                        { label: "15 hours", value: "op-15" },
+                                        { label: "16 hours", value: "op-16" },
+                                        { label: "17 hours", value: "op-17" },
+                                        { label: "18 hours", value: "op-18" },
+                                        { label: "19 hours", value: "op-19" },
+                                        { label: "20 hours", value: "op-20" },
+                                        { label: "21 hours", value: "op-21" },
+                                        { label: "22 hours", value: "op-22" },
+                                        { label: "23 hours", value: "op-23" },
+                                        { label: "24 hours", value: "op-24" }
                                     ]}
                                     onChange={(value) => { setSelected(value) }}
                                     placeholder=" -- select --"
@@ -81,7 +102,7 @@ const Electric_car_widgetsWidget: React.FunctionComponent<IWidgetProps> = (props
 
 
 const Electric_car_widgetsWidget_Details: React.FunctionComponent<IWidgetProps> = (props) => {
-    let [selected, setSelected] = React.useState<string | null>("op-1");
+    let [selected, setSelected] = React.useState<string | null>("op-24");
 
     const GridData = [
         {
@@ -125,12 +146,33 @@ const Electric_car_widgetsWidget_Details: React.FunctionComponent<IWidgetProps> 
                     <div className="uti-sel-boxes">
                         <div className="uti-sel-box">
                             <FormField inline className="showcase-input">
-                                <Select
+                            <Select
                                     selected={selected}
                                     options={[
-                                        { label: "24 hours", value: "op-1" },
-                                        { label: "Central Square 1", value: "op-2" },
-                                        { label: "Central Square 2", value: "op-3" },
+                                        { label: "01 hour",  value: "op-1" },
+                                        { label: "02 hours", value: "op-2" },
+                                        { label: "03 hours", value: "op-3" },
+                                        { label: "04 hours", value: "op-4" },
+                                        { label: "05 hours", value: "op-5" },
+                                        { label: "06 hours", value: "op-6" },
+                                        { label: "07 hours", value: "op-7" },
+                                        { label: "08 hours", value: "op-8" },
+                                        { label: "09 hours", value: "op-9" },
+                                        { label: "10 hours", value: "op-10" },
+                                        { label: "11 hours", value: "op-11" },
+                                        { label: "12 hours", value: "op-12" },
+                                        { label: "13 hours", value: "op-13" },
+                                        { label: "14 hours", value: "op-14" },
+                                        { label: "15 hours", value: "op-15" },
+                                        { label: "16 hours", value: "op-16" },
+                                        { label: "17 hours", value: "op-17" },
+                                        { label: "18 hours", value: "op-18" },
+                                        { label: "19 hours", value: "op-19" },
+                                        { label: "20 hours", value: "op-20" },
+                                        { label: "21 hours", value: "op-21" },
+                                        { label: "22 hours", value: "op-22" },
+                                        { label: "23 hours", value: "op-23" },
+                                        { label: "24 hours", value: "op-24" }
                                     ]}
                                     onChange={(value) => { setSelected(value) }}
                                     placeholder=" -- select --"

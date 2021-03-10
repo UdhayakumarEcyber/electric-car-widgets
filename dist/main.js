@@ -312,7 +312,7 @@ module.exports = function () {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".car_widget {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 15px;\n  min-height: 60px;\n  flex-grow: 0;\n  background-color: #000000;\n  color: #ffffff78; }\n  .car_widget .car_widget-battery-bg {\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-image: url(https://static.iviva.com/images/Car_widget/bg-1.png);\n    display: inline-block;\n    width: 110%;\n    height: 9em;\n    position: absolute;\n    bottom: 0;\n    left: 50%;\n    filter: blur(2px);\n    transform: translateX(-50%); }\n  .car_widget .uxp-widget-title-bar {\n    padding: 2px;\n    min-height: 20px;\n    background-color: #000000;\n    width: 100%; }\n  .car_widget .car_widget-header {\n    display: inline-flex;\n    width: 100%;\n    padding: 0px 2em;\n    position: absolute;\n    top: 5%; }\n  .car_widget .uxp-form-group.showcase-input {\n    width: 100% !important;\n    padding: 0; }\n    .car_widget .uxp-form-group.showcase-input .uxp-form-select {\n      position: relative; }\n      .car_widget .uxp-form-group.showcase-input .uxp-form-select .uxp-select-placeholder {\n        background-color: #70707061;\n        color: #ffffff69;\n        padding: 10px 35px 10px 20px; }\n  .car_widget label {\n    color: #ffffff78; }\n  .car_widget .car_widget_lft {\n    display: inline-block;\n    width: 50%; }\n    .car_widget .car_widget_lft .uxp-form-select {\n      min-width: 100%; }\n  .car_widget .car_widget_rht {\n    width: 50%;\n    float: right; }\n    .car_widget .car_widget_rht .uxp-form-select {\n      min-width: 100%; }\n    .car_widget .car_widget_rht .block_building {\n      float: right;\n      margin-top: 0.7em;\n      font-size: 0.8em; }\n    .car_widget .car_widget_rht .uti-sel-boxes {\n      float: right;\n      margin-bottom: 1em; }\n  .car_widget .car_widget-body {\n    display: inline-block;\n    width: 100%;\n    align-items: center;\n    position: absolute;\n    top: 50%;\n    left: 1em;\n    transform: translateY(-50%); }\n    .car_widget .car_widget-body .car-battery {\n      display: inline-block;\n      width: 90%;\n      padding-left: 5%; }\n      .car_widget .car_widget-body .car-battery .widget-pict {\n        display: inline-block;\n        background-position: center center;\n        background-repeat: no-repeat;\n        background-size: contain;\n        position: relative;\n        opacity: 0.9; }\n        .car_widget .car_widget-body .car-battery .widget-pict.car {\n          width: 5em;\n          height: 4em;\n          background-image: url(\"https://static.iviva.com/images/Car_widget/Car.svg\"); }\n          .car_widget .car_widget-body .car-battery .widget-pict.car .car-battery-pict {\n            display: inline-block;\n            background-position: top left;\n            background-repeat: no-repeat;\n            background-size: 100% auto;\n            background-image: url(\"https://static.iviva.com/images/Car_widget/Battery.svg\");\n            width: 4em;\n            height: 2em;\n            position: absolute;\n            left: 5em;\n            top: -2em; }\n      .car_widget .car_widget-body .car-battery h3.battery-value {\n        display: inline-block;\n        font-size: 1.8em;\n        margin: 0.8em 0 0 0;\n        padding: 0;\n        width: 100%; }\n      .car_widget .car_widget-body .car-battery p.battery-status {\n        display: inline-block;\n        font-size: 1.1em;\n        padding: 0;\n        margin: 1em 0 0 0;\n        width: 100%; }\n  .car_widget.car_widget-details {\n    display: inline-block; }\n    .car_widget.car_widget-details .car_details {\n      display: inline-block;\n      width: 100%;\n      height: 80%; }\n      .car_widget.car_widget-details .car_details .data-grid {\n        background-color: transparent; }\n        .car_widget.car_widget-details .car_details .data-grid .data-grid-column {\n          border: 1px solid #77777763;\n          height: 50%; }\n        .car_widget.car_widget-details .car_details .data-grid .item-card {\n          background-color: transparent;\n          display: inline-block; }\n          .car_widget.car_widget-details .car_details .data-grid .item-card .item-card-image-container {\n            position: inherit;\n            transform: none;\n            left: 0;\n            top: 0; }\n            .car_widget.car_widget-details .car_details .data-grid .item-card .item-card-image-container .profile-image-container {\n              background-color: transparent !important;\n              width: 25px;\n              height: 25px;\n              opacity: 0.8; }\n          .car_widget.car_widget-details .car_details .data-grid .item-card .content {\n            margin-left: 0; }\n            .car_widget.car_widget-details .car_details .data-grid .item-card .content .title h3 {\n              margin: 0;\n              padding: 0;\n              font-weight: 500;\n              font-size: 1.65em; }\n              .car_widget.car_widget-details .car_details .data-grid .item-card .content .title h3.green {\n                color: #4fc8ac82; }\n              .car_widget.car_widget-details .car_details .data-grid .item-card .content .title h3.orange {\n                color: #815821cf; }\n              .car_widget.car_widget-details .car_details .data-grid .item-card .content .title h3 span.white {\n                color: #ffffffb8; }\n            .car_widget.car_widget-details .car_details .data-grid .item-card .content .sub-title {\n              font-size: 9px;\n              padding: 3px 0;\n              text-transform: uppercase; }\n", ""]);
+exports.push([module.i, ".car_widget {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 15px;\n  min-height: 60px;\n  flex-grow: 0;\n  background-color: #000000;\n  color: #ffffff78; }\n  .car_widget .car_widget-battery-bg {\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-image: url(https://static.iviva.com/images/Car_widget/bg-1.png);\n    display: inline-block;\n    width: 110%;\n    height: 9em;\n    position: absolute;\n    bottom: 0;\n    left: 50%;\n    filter: blur(2px);\n    transform: translateX(-50%); }\n  .car_widget .uxp-widget-title-bar {\n    padding: 2px;\n    min-height: 20px;\n    background-color: #000000;\n    width: 100%; }\n  .car_widget .car_widget-header {\n    display: inline-flex;\n    width: 100%;\n    padding: 0px 2em;\n    position: absolute;\n    top: 5%; }\n  .car_widget .uxp-form-group.showcase-input {\n    width: 100% !important;\n    padding: 0; }\n    .car_widget .uxp-form-group.showcase-input .uxp-form-select {\n      position: relative; }\n      .car_widget .uxp-form-group.showcase-input .uxp-form-select .uxp-select-placeholder {\n        background-color: #70707061;\n        color: #ffffff69;\n        padding: 10px 35px 10px 20px; }\n  .car_widget label {\n    color: #ffffff78; }\n  .car_widget .car_widget_lft {\n    display: inline-block;\n    width: 50%; }\n    .car_widget .car_widget_lft .uxp-form-select {\n      min-width: 100%; }\n  .car_widget .car_widget_rht {\n    width: 50%;\n    float: right; }\n    .car_widget .car_widget_rht .uxp-form-select {\n      min-width: 100%; }\n    .car_widget .car_widget_rht .block_building {\n      float: right;\n      margin-top: 0.7em;\n      font-size: 0.8em; }\n    .car_widget .car_widget_rht .uti-sel-boxes {\n      float: right;\n      margin-bottom: 1em; }\n  .car_widget .car_widget-body {\n    display: inline-block;\n    width: 100%;\n    align-items: center;\n    position: absolute;\n    top: 50%;\n    left: 1em;\n    transform: translateY(-50%); }\n    .car_widget .car_widget-body .car-battery {\n      display: inline-block;\n      width: 90%;\n      padding-left: 5%; }\n      .car_widget .car_widget-body .car-battery .widget-pict {\n        display: inline-block;\n        background-position: center center;\n        background-repeat: no-repeat;\n        background-size: contain;\n        position: relative;\n        opacity: 0.9; }\n        .car_widget .car_widget-body .car-battery .widget-pict.car {\n          width: 5em;\n          height: 4em;\n          background-image: url(\"https://static.iviva.com/images/Car_widget/Car.svg\"); }\n          .car_widget .car_widget-body .car-battery .widget-pict.car .car-battery-pict {\n            display: inline-block;\n            background-position: top left;\n            background-repeat: no-repeat;\n            background-size: 100% auto;\n            background-image: url(\"https://static.iviva.com/images/Car_widget/Battery.svg\");\n            width: 4em;\n            height: 2em;\n            position: absolute;\n            left: 5em;\n            top: -2em; }\n      .car_widget .car_widget-body .car-battery h3.battery-value {\n        display: inline-block;\n        font-size: 1.8em;\n        margin: 0.8em 0 0 0;\n        padding: 0;\n        width: 100%; }\n      .car_widget .car_widget-body .car-battery p.battery-status {\n        display: inline-block;\n        font-size: 1.1em;\n        padding: 0;\n        margin: 1em 0 0 0;\n        width: 100%; }\n  .car_widget.car_widget-details {\n    display: inline-block;\n    padding: 0; }\n    .car_widget.car_widget-details .uti-sel-boxes {\n      position: absolute;\n      right: 2em;\n      top: 2em; }\n    .car_widget.car_widget-details .car_details {\n      display: inline-block;\n      width: 100%;\n      height: 96%; }\n      .car_widget.car_widget-details .car_details .data-grid {\n        background-color: transparent; }\n        .car_widget.car_widget-details .car_details .data-grid .data-grid-column {\n          border: 0px solid #77777763;\n          height: 50%; }\n          .car_widget.car_widget-details .car_details .data-grid .data-grid-column:nth-child(odd) {\n            border-right: 1px solid #77777763; }\n          .car_widget.car_widget-details .car_details .data-grid .data-grid-column:first-child {\n            border-bottom: 1px solid #77777763; }\n          .car_widget.car_widget-details .car_details .data-grid .data-grid-column:nth-child(2) {\n            border-bottom: 1px solid #77777763; }\n        .car_widget.car_widget-details .car_details .data-grid .item-card {\n          background-color: transparent;\n          display: inline-block; }\n          .car_widget.car_widget-details .car_details .data-grid .item-card .item-card-image-container {\n            position: inherit;\n            transform: none;\n            left: 0;\n            top: 0; }\n            .car_widget.car_widget-details .car_details .data-grid .item-card .item-card-image-container .profile-image-container {\n              background-color: transparent !important;\n              width: 25px;\n              height: 25px;\n              opacity: 0.8; }\n          .car_widget.car_widget-details .car_details .data-grid .item-card .content {\n            margin-left: 0; }\n            .car_widget.car_widget-details .car_details .data-grid .item-card .content .title h3 {\n              margin: 0;\n              padding: 0;\n              font-weight: 500;\n              font-size: 1.65em; }\n              .car_widget.car_widget-details .car_details .data-grid .item-card .content .title h3.green {\n                color: #4fc8ac82; }\n              .car_widget.car_widget-details .car_details .data-grid .item-card .content .title h3.orange {\n                color: #815821cf; }\n              .car_widget.car_widget-details .car_details .data-grid .item-card .content .title h3 span.white {\n                color: #ffffffb8; }\n            .car_widget.car_widget-details .car_details .data-grid .item-card .content .sub-title {\n              font-size: 11px;\n              padding: 3px 0;\n              text-transform: uppercase;\n              line-height: 1.4em; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -10487,7 +10487,7 @@ const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 const Electric_car_widgetsWidget = (props) => {
-    let [selected, setSelected] = React.useState("op-1");
+    let [selected, setSelected] = React.useState("op-24");
     // let [inputValue, setInputValue] = React.useState<string | null>("sample text");
     // let [defCheckState, setDefCheckState] = React.useState<boolean>(false);
     // const onChangeCheckboxDef = (checked: boolean) => {
@@ -10503,9 +10503,30 @@ const Electric_car_widgetsWidget = (props) => {
                     React.createElement("div", { className: "uti-sel-box" },
                         React.createElement(components_1.FormField, { inline: true, className: "showcase-input" },
                             React.createElement(components_1.Select, { selected: selected, options: [
-                                    { label: "24 hours", value: "op-1" },
-                                    { label: "Central Square 1", value: "op-2" },
-                                    { label: "Central Square 2", value: "op-3" },
+                                    { label: "01 hour", value: "op-1" },
+                                    { label: "02 hours", value: "op-2" },
+                                    { label: "03 hours", value: "op-3" },
+                                    { label: "04 hours", value: "op-4" },
+                                    { label: "05 hours", value: "op-5" },
+                                    { label: "06 hours", value: "op-6" },
+                                    { label: "07 hours", value: "op-7" },
+                                    { label: "08 hours", value: "op-8" },
+                                    { label: "09 hours", value: "op-9" },
+                                    { label: "10 hours", value: "op-10" },
+                                    { label: "11 hours", value: "op-11" },
+                                    { label: "12 hours", value: "op-12" },
+                                    { label: "13 hours", value: "op-13" },
+                                    { label: "14 hours", value: "op-14" },
+                                    { label: "15 hours", value: "op-15" },
+                                    { label: "16 hours", value: "op-16" },
+                                    { label: "17 hours", value: "op-17" },
+                                    { label: "18 hours", value: "op-18" },
+                                    { label: "19 hours", value: "op-19" },
+                                    { label: "20 hours", value: "op-20" },
+                                    { label: "21 hours", value: "op-21" },
+                                    { label: "22 hours", value: "op-22" },
+                                    { label: "23 hours", value: "op-23" },
+                                    { label: "24 hours", value: "op-24" }
                                 ], onChange: (value) => { setSelected(value); }, placeholder: " -- select --" }))))),
             React.createElement("div", { className: "car_widget_rht" },
                 React.createElement("div", { className: "block_building" },
@@ -10519,7 +10540,7 @@ const Electric_car_widgetsWidget = (props) => {
         React.createElement("div", { className: "car_widget-battery-bg" })));
 };
 const Electric_car_widgetsWidget_Details = (props) => {
-    let [selected, setSelected] = React.useState("op-1");
+    let [selected, setSelected] = React.useState("op-24");
     const GridData = [
         {
             icon: "https://static.iviva.com/images/Car_widget/Car.svg",
@@ -10555,9 +10576,30 @@ const Electric_car_widgetsWidget_Details = (props) => {
                 React.createElement("div", { className: "uti-sel-box" },
                     React.createElement(components_1.FormField, { inline: true, className: "showcase-input" },
                         React.createElement(components_1.Select, { selected: selected, options: [
-                                { label: "24 hours", value: "op-1" },
-                                { label: "Central Square 1", value: "op-2" },
-                                { label: "Central Square 2", value: "op-3" },
+                                { label: "01 hour", value: "op-1" },
+                                { label: "02 hours", value: "op-2" },
+                                { label: "03 hours", value: "op-3" },
+                                { label: "04 hours", value: "op-4" },
+                                { label: "05 hours", value: "op-5" },
+                                { label: "06 hours", value: "op-6" },
+                                { label: "07 hours", value: "op-7" },
+                                { label: "08 hours", value: "op-8" },
+                                { label: "09 hours", value: "op-9" },
+                                { label: "10 hours", value: "op-10" },
+                                { label: "11 hours", value: "op-11" },
+                                { label: "12 hours", value: "op-12" },
+                                { label: "13 hours", value: "op-13" },
+                                { label: "14 hours", value: "op-14" },
+                                { label: "15 hours", value: "op-15" },
+                                { label: "16 hours", value: "op-16" },
+                                { label: "17 hours", value: "op-17" },
+                                { label: "18 hours", value: "op-18" },
+                                { label: "19 hours", value: "op-19" },
+                                { label: "20 hours", value: "op-20" },
+                                { label: "21 hours", value: "op-21" },
+                                { label: "22 hours", value: "op-22" },
+                                { label: "23 hours", value: "op-23" },
+                                { label: "24 hours", value: "op-24" }
                             ], onChange: (value) => { setSelected(value); }, placeholder: " -- select --" }))))),
         React.createElement("div", { className: "car_details" },
             React.createElement(components_1.DataGrid, { data: GridData, renderItem: renderGridItem, columns: 2 }))));

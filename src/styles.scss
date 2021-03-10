@@ -160,11 +160,18 @@
 
     &.car_widget-details{ 
         display: inline-block;
+        padding: 0;
+
+        .uti-sel-boxes{
+            position: absolute;
+            right: 2em;
+            top: 2em;
+        }
 
         .car_details{
             display: inline-block;
             width: 100%;
-            height: 80%;
+            height: 96%;
 
             // display: inline-block;
             // width: 90%;
@@ -177,8 +184,19 @@
                 background-color: transparent;
 
                 .data-grid-column { 
-                    border: 1px solid #77777763;
+                     border: 0px solid #77777763;
                     height: 50%;
+
+                    &:nth-child(odd){
+                        border-right: 1px solid #77777763;
+                    }
+
+                    &:first-child{
+                        border-bottom: 1px solid #77777763;
+                    }
+                    &:nth-child(2){
+                        border-bottom: 1px solid #77777763;
+                    }
                 }
 
                 .item-card{
@@ -222,9 +240,10 @@
                                 }
                         } 
                         .sub-title {
-                            font-size: 9px;
+                            font-size: 11px;
                             padding: 3px 0;
                             text-transform: uppercase;
+                            line-height: 1.4em;
                         }
                     }
                 }
